@@ -10,7 +10,8 @@ window.onload = function(){
 	      console.log('err: ', err);
 	      var sub = result[0].getValue();
 	      var email = result[result.length-1].getValue();
-	  		
+	      console.log('email: ', email);
+	  		document.getElementById("userEmail").innerHTML = email;
 			});	
 		}
 	});	

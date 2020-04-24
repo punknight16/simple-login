@@ -120,7 +120,7 @@ function validatePasswordInput(y){
 function goSomewhere(){
 	var form = document.createElement("form");
   form.method = "GET";
-  form.action = "./dashboard.html";   
+  form.action = "./admin";   
   document.body.appendChild(form);
   form.submit();
 }
