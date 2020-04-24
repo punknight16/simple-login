@@ -1,0 +1,2 @@
+userpool_id: us-west-2_Q2jEhB2TV
+app_id: 6pu3v68tm36o84lff6tpdujufv

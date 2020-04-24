@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script async src="../_build/amazon-cognito-identity.min.js"></script>
+	<script async src="../_build/aws-sdk.min.js"></script>
+	<style>
+		* {
+			padding: 0;
+			margin: 0;
+		}
+		.header-spacer {
+			height: 50px;
+		}
+		.header {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			background-color: #343434;
+			color: white;
+			height: 50px;
+		}
+		.sidebar {
+			position: fixed;
+			margin-top: 50px;
+			width: 300px;
+			height: 100%;
+			background-color: #EBEBEB;
+		}
+		.content {
+			margin-top: 0px;
+			margin-left: 300px;
+		}
+		p { padding: 10px;}
+		/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+		@media screen and (max-width: 600px) {
+		  .sidebar {
+		    display: none;
+		  }
+		}
+	</style>
+</head>
+<body>
+	<header class="header">
+			<div style="float: left; padding: 15px;">Company XYZ</div>
+			<div style="float: right; padding: 15px">Daniel Miller</div>
+		</header>
+		<nav class="sidebar">
+			Better Sidebar
+		</nav>
+	<main class="content">
+		<header class='header-spacer'>Cool header</header>
+		<p>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>
+		
+	</main>
+	<script src='../_js/cognito.js' type='text/javascript'></script>
+	<script async src='../_js/index.js' type='text/javascript'></script>
+
+
+</body>
+</html>
